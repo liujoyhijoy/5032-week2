@@ -166,7 +166,7 @@ const orwell = computed(() => {
 // Activity 5: Find author by ID
 const austen = computed(() => {
   // TODO: CODE TO FIND AUTHOR BY ID HERE
-  const targetId = 1; // 假设要查找的ID是1
+  const targetId = 1; // Assume the ID to be searched is 1
   return authors.find(author => author.id === targetId);
 });
 </script>
